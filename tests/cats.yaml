@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Cat API
-  description: A simple API to manage cute cat data.
+  description: A simple API to manage cute cat data. This is the collection overview!! let's see if this will work. 
   version: 1.0.0
 
 paths:
