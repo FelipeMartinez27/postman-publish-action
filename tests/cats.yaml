@@ -1,13 +1,13 @@
 openapi: 3.0.0
 info:
-  title: Cat API
+  title: Cat and Dog API
   description: A simple API to manage cute cat data. This is the collection overview!! let's see if this will work. 
   version: 1.0.0
 
 paths:
   /cats:
     get:
-      summary: Get a list of all cute cats
+      summary: Get a list of all cute cats and dogs
       responses:
         '200':
           description: A list of cats.
@@ -36,7 +36,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Cat'
         '404':
-          description: Cat not found
+          description: Cat or dog not found
 
 components:
   schemas:
